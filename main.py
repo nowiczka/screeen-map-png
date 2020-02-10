@@ -28,7 +28,7 @@ def preparar_mapas():
       codigo_par = str(row.CODIGO_PAR) # nombre del mapa
       # check if file exsists
 
-      if os.path.isfile("C:\\1048_ATM\\source\\imagenes\\D4\\"+codigo_par+'.png'):
+      if os.path.isfile(codigo_par+'.png'):
           pass
       else:
 
